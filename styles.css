@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
     text-align: center;
@@ -36,4 +36,37 @@ canvas {
 
 .hidden {
     display: none;
-}
+} */
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  #card-container {
+    position: relative;
+  }
+  
+  #scratch-card {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  #message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
